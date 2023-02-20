@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GoFFa</title>
+        <link rel="stylesheet" href="goffa.css">
+        <script src="then.js"></script>
+        <link rel="icon" href="favicon.ico" width="100px" height="100px">
+    </head>
+    <body>
+    
+        <a href="/route/logout">logout</a>
+        
+        <h1>GoFFa</h1>
+       
+        <p>with <i>GoFFa</i> we go fast and reach far in short time.<br> Enjoy making you work so perfect</p>
+        
+            <div class="first">
+                <img src="buus.png" alt="bus" id="img1">
+                <img src="../public/assets/mycar.png" alt="bus" id="img">
+            
+            </div>
+            <div class="second">
+                <h2>sign in</h2>
+                <input type="email" name="email" placeholder="email"onFocus="this.style.backgroundColor='lightblue';" onBlur="this.style.backgroundColor='white';"><br><br>
+                <input type="password" name="pin" placeholder="PIN"onFocus="this.style.backgroundColor='lightblue';" onBlur="this.style.backgroundColor='white';"><br><br>
+                <input type="checkbox" name="agreement" value="agree terms and condition">
+                <span style="font-size:large">&#8594;</span>agree terms and condition<br><br>
+                <input type="submit" name="continue" value="continue" onclick="then()"><br><br>
+                <a href="facebook.com"><img src="Facebook_icon.svg"></a>
+                <a href="instagram.com"><img src="instagram.png"></a>
+            </div>
+        
+        <style>
+            *{
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    background:RADIAL-gradient(rgb(198, 123, 210),rgb(253, 250, 255),rgb(198, 123, 210))
+}
+h1{
+    font-size: 70px;
+    color: blueviolet;
+    text-align: center;
+    font-family: Arial;
+}
+div{
+    align-items: center;
+    width: 15%;
+    text-align: center;
+    font-size: 20px;
+    height: 21px;
+    font-style: italic;
+    background-color: rgb(117, 117, 152);
+    border: groove  rgb(117, 117, 152);
+}
+p{
+    font-size: 30px;
+    color: rgb(2, 2, 45);
+    margin: 2px;
+    text-decoration: calc(blue);
+    margin-left: 20%;
+}
+.general{
+    position: absolute;
+    top: 18%;
+    width: 560px;
+    height: 70%;
+    left: 40%;
+    background-color: lightslategrey;
+}
+.first{
+    width: 40%;
+    height:353px ;
+    border: double transparent black;
+  border-radius: 100px;
+    position: absolute;
+    right: 51%;
+    background-color: royalblue;
+    top: 30%;
+    transform-style: preserve-3d;
+  
+  
+}
+#img{
+    display: none;
+    width: 100%;
+    height:353px ;
+  border-radius: 100px;
+    position: absolute;
+    left: 0px;
+    transform: rotateY(180deg);
+    border: 4px double purple;
+
+}
+
+.first:hover #img{
+    display: block;
+  
+        transform: rotateY(180deg);
+        
+    
+
+}
+.first:hover #img1{
+    display: none;
+    
+    transform: rotateY(180deg);
+}
+div>input:nth-of-type(1){
+background-color:rgb(252, 250, 250);
+padding: 11px;
+margin: 20px;
+width: 332px;
+border-radius: 7px;
+}
+div>input:nth-of-type(2){
+    background-color:white;
+    padding: 11px;
+width: 332px;
+    border-radius: 7px;
+    }
+    div>input:nth-of-type(4){
+        background-color:rgb(129, 8, 243);
+        padding: 11px;
+        border: solid blueviolet;
+    width: 250px;
+        border-radius: 7px;
+    }
+    div>input:nth-of-type(3){
+        background-color: antiquewhite ;
+    }
+.second{
+    justify-content: center;
+    width: 40%;
+    height: 355px;
+    font-style: normal;
+   align-items: center;
+    position: absolute;
+    border-radius: 7px;
+    top: 30%;
+    left: 50%;
+    background-color: rgb(101, 101, 177);
+}
+body>div:nth-of-type(1)>img{
+    width: 100%;
+    height:353px ;
+  border-radius: 100px;
+    position: absolute;
+    left: 0px;
+
+}
+/* div:nth-of-type(1)>img{
+    /* transform: rotateY(180deg); */
+    /* border: 4px double purple;
+    opacity: 0.8; */
+    /* transition: 1s; */
+
+    
+
+
+h2{
+    margin-top: 20px;
+}
+body>div:nth-of-type(2)>a{
+    text-decoration: none;
+
+}
+body>div:nth-of-type(2)>a:nth-of-type(1)>img{
+    width: 4% ;
+    height: 6%;
+    position: absolute;
+    left: 40%;
+
+    bottom: 2%;
+    
+}
+body>div:nth-of-type(2)>a:nth-of-type(2)>img{
+    width: 4% ;
+    height: 6%;
+    position: absolute;
+    left: 46%;
+    bottom: 2%;
+    
+}
+a{
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+background-color: rgb(64, 46, 64);
+border: solid rgb(29, 12, 29);
+border-radius: 4px;
+position: absolute;
+top: 4px;
+right: 5px;
+padding: 12px;
+color: black;
+}
+
+
+
+        </style>
+
+    </body>
+</html>
